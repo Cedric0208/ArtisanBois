@@ -1,0 +1,133 @@
+h2
+{
+	text-decoration: underline;
+}
+
+body
+{
+	Background-color: rgb(171, 166, 163);
+	/*background-image: url("images/bois.jpg");*/
+	Text-align: Center;
+}
+
+/*Barre de navigation*/
+#Navigation
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+	width: 95%;
+	margin: 40px;
+	
+	font-size: 20px;
+	font-weight: bold;
+}
+.Navi:hover
+{
+	color: Red;
+	background-color: rgb(171, 166, 163);
+	box-shadow: 6px 6px 12px Black;
+}
+.Navi
+{
+	width: 18%;
+	height: 30px;
+	border: 1px black solid;
+	border-radius: 10px;
+	background-color: rgb(203, 199, 197);	
+}
+
+/* Images de vente*/
+#Images
+{
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	flex-direction: row;
+	height: 1600px;
+	width: 80%;
+	font-size: 16px;
+	margin: auto;
+	border: 2px black solid;
+	background-color: rgb(203, 199, 197);
+}
+/* Faire un zoom sur les images et mettre une ombre quand on survole*/
+#Images div img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#Images div:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.Photos:hover
+{
+	box-shadow: 15px 15px 50px Black;
+}
+.Txt
+{
+	width: 249px;
+	height: 345px;
+}
+
+.Txt h2 {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+}
+.Txt:hover h2 {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	color: white;
+	opacity: 1;
+	text-shadow: 15px 15px 50px black;
+}
+.Txt h3 {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+}
+.Txt:hover h3 {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+	color: white;
+	opacity: 1;
+	text-shadow: 15px 15px 50px black;
+}
+.Texte
+{
+	font-size: 25px;
+}
+
+/*Pied de page*/
+#Fin
+{
+	display: flex;	
+	justify-content: space-around;
+	flex-direction: row;
+	padding-bottom: 100px;
+}
+.Adresse
+{
+	width: 15%;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.Adresse a 
+{
+	float: left;
+	margin-top: 40px;
+	padding-left: 20px;
+}
+.Contact
+{
+	width: 20%;
+}

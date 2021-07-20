@@ -1,0 +1,107 @@
+
+body
+{
+	Background-color: rgb(171, 166, 163);
+	/*background-image: url('images/bois.jpg');*/
+	Text-align: center;
+}
+
+h2
+{
+	text-decoration: underline;
+}
+
+/*Barre de navigation*/
+
+#Navigation
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+	width: 95%;
+	margin: 40px;
+	
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.Navi:hover
+{
+	color: Red;
+	background-color: rgb(171, 166, 163);
+	box-shadow: 6px 6px 12px Black;
+}
+
+.Navi
+{
+	width: 18%;
+	height: 30px;
+	
+	border: 1px black solid;
+	border-radius: 10px;
+	
+	background-color: rgb(203, 199, 197);	
+}
+
+.Image1
+{
+	Float: left;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.Image2
+{
+	float: right;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.Image3
+{
+	margin-top: 50px;
+}
+
+.Formulaire
+{
+	margin-left: 25%;
+	margin-top: 10%;
+	Padding-top: 20px;
+	Padding-bottom: 20px;
+	width: 50%;
+	font-size: 25px;
+	border: 1px black solid;
+	box-shadow: 3px 3px 9px Black;
+	background-color: rgb(203, 199, 197);
+	border-radius: 10px;
+}
+
+/*Pied de page*/
+#Fin
+{
+	display: flex;	
+	justify-content: space-around;
+	flex-direction: row;
+	padding-bottom: 100px;
+	padding-top: 200px;
+}
+
+.Adresse
+{
+	width: 15%;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+.Adresse a 
+{
+	float: left;
+	margin-top: 40px;
+	padding-left: 20px;
+}
+
+.Contact
+{
+	width: 20%;
+}
