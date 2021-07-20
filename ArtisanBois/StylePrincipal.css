@@ -1,0 +1,186 @@
+
+h2
+{
+	text-decoration: underline;
+}
+body
+{
+	Background-color: rgb(171, 166, 163);
+	/*background-image: url("images/bois.png");*/
+	text-align: center;
+}
+
+#Tête
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.Connexion
+{
+	margin-top: 25px;
+	margin-left: 500px;
+	text-align: right;
+}
+
+/*Barre de navigation*/
+#Navigation
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	
+	width: 95%;
+	margin: 40px;
+	
+	font-size: 20px;
+	font-weight: bold;
+}
+.Navi:hover
+{
+	color: Red;
+	background-color: rgb(171, 166, 163);
+	box-shadow: 6px 6px 12px Black;
+}
+.Navi
+{
+	width: 18%;
+	height: 30px;
+	border: 1px black solid;
+	border-radius: 10px;
+	background-color: rgb(203, 199, 197);	
+}
+
+/* Présentation */
+#Présentation-du-site
+{
+	width: 50%;
+	font-size: 22px;
+	margin-top: 5%;
+	margin-bottom: 6%;
+	margin-left: 25%;
+	border: 1px black solid;
+	border-radius: 10px;
+	box-shadow: 6px 6px 12px black;
+}
+/* Images de début de site*/
+#ImagesDébut
+{
+    display: flex;	
+	justify-content: space-around;
+	flex-direction: row;
+	width: 100%;
+	height: 650px;
+	font-size: 18px;
+	margin-top: 60px;
+}
+
+.Txt
+{
+	width: 249px;
+	height: 345px;
+}
+.Photos
+{
+	box-shadow: 6px 6px 35px black;
+}
+
+.Moi
+{
+	margin-left: 100px;
+	margin-right: 100px;
+	float: right;
+	box-shadow: 10px 10px 50px black;
+}
+
+/*Taille et position du texte*/
+
+.Texte
+{
+	font-size: 18px;
+	padding: 50px;
+}
+
+.présentation
+{
+	Text-align: center;
+}
+
+
+#TitreTxt1
+{
+	font-size: 40px;
+	margin-top: 120px;
+}
+
+#TitreTxt2
+{
+	font-size: 40px;
+	margin-top: 350px;
+}
+
+#TitreTxt3
+{
+	font-size: 40px;
+	margin-top: 250px;
+}
+
+#Atelier
+{
+	display: flex;	
+	justify-content: space-around;
+	flex-direction: column;
+	float: left;
+	margin-top: 200px;
+}
+.Atelier
+{
+	margin-left: 50px;
+	margin-right: 50px;
+	float: left;
+	box-shadow: 10px 10px 50px black;
+}
+.Atelier1
+{
+	margin-left: 250px;
+	margin-top: 40px;
+	float: left;
+	box-shadow: 10px 10px 50px black;	
+}
+
+#Oeuvres
+{
+    display: flex;	
+	justify-content: space-around;
+	flex-direction: row;
+	width: 100%;
+	height: 650px;
+	font-size: 18px;
+	margin-top: 60px;
+}
+
+/*Pied de page*/
+#Fin
+{
+	display: flex;	
+	justify-content: space-around;
+	flex-direction: row;
+	padding-bottom: 100px;
+}
+.Adresse
+{
+	width: 15%;
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.Adresse a 
+{
+	float: left;
+	margin-top: 40px;
+	padding-left: 20px;
+}
+.Contact
+{
+	width: 20%;
+}
